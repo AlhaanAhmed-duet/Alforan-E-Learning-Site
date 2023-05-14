@@ -106,7 +106,7 @@ body {
 .second-last-section {
     width: 1007px;
     height: 450px;
-    background: url('img/study-picture.jpg');
+    background: url('study-picture.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(0.8);
