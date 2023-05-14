@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+ * {
+ 	font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding:  0;
+    margin:  0;
+ }
+body {
+    background-color: #263736;
+}
+ /* Styling the navbar */
+ .company-logo {
+    width: 30px;
+    height:  30px;
+ }
+ .navbar-nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: none;
+    align-items: center;
+    text-align: center;
+ }
+ .navbar-brand {
+    color: white;
+    
+ }
+.navbar-brand:focus, .navbar-brand:hover {
+    color: white;
+ }
+ .navbar-toggler {
+    border: none;
+    border-radius: none;
+    transition: 0.5s;
+ }
+
+.nav-item:hover {
+    background-color: white;
+    color: #096c67;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    transition: 0.2s;
+    font-weight: bold;
+}
+/* We styled Navbar now its time for the rest of the body i.e Main element */
+.front-picture {
+    width: 400px;
+    height:  300px;
+    float: right;
+    padding: 20px;
+}
+.heading {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    line-height: 1.3;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.heading-para {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+.white-section {
+    background-color: white;
+    height: 400px;
+    clear: both;
+}
+.white-section-heading {
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.englishLogo {
+    height: 200px;
+    width: 200px;
+    float: left;
+    transition: 0.5s;
+}
+.scienceLogo {
+    height: 200px;
+    width: 250px;
+    float: right;
+    transition: 0.5s;
+}
+.mathLogo {
+    height: 200px;
+    width: 180px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+    transition: 0.5s;
+}
+.englishLogo:hover {
+    transform: scale(1.3);
+    
+}
+.scienceLogo:hover {
+    transform: scale(1.3);
+}
+.mathLogo:hover {
+    transform: scale(1.3);
+}
+.second-last-section {
+    width: 1007px;
+    height: 450px;
+    background: url('img/study-picture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.8);
+
+}
+
+.section-two-heading {
+    align-items: center;
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px;
+}
+.chat-button {
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #096c67;
+    margin-left: 20px;
+    height: 10px;
+    border-radius: 20px;
+    transition: 0.2s 0.2s;
+}
+.chat-button:hover {
+    background-color: white;
+    color: #096c67;
+    border-radius: 30px;
+}
+/* Now footer starts here */
+#footer {
+    height: 100px;
+    background-color: #096c67;
+}
