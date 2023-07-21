@@ -14,7 +14,10 @@ document.addEventListener("DOMContentLoaded",
             var greetSentence = "Hi, so good to see you";
             document.getElementById("responseChat").innerHTML = greetSentence;
         }
-        
+        else {
+            var secondSentence = "This, is in Development Process, Please wait for the admin! Thank you...:)";
+            document.getElementById("responseChat").innerHTML = secondSentence;
+        }
 
         
         
