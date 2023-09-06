@@ -19,11 +19,14 @@
 		var request = getRequestObject();
 		request.onreadystatechange = function () {
 			handleResponse(request, responseHandler);
+			// Actually this is the function call for handleResponse Function to execute since onreadyStateChange
+			// and onload means same thing
+		
 		};
 			request.open("GET", requestUrl, true);
 			request.send(null);   // For Post Only	
 	};
-
+	// Function definition of handleResponse
 	function handleResponse(request, responseHandler) {
 		if ((request.readyState == 4) && (request.status == 200)) {
 			responseHandler(request);
