@@ -39,6 +39,9 @@ body {
     box-shadow: none;
     transition: 0.5s;
  }
+.navbar-toggler:focus {
+ box-shadow: none;
+}
 .nav-item {
     transition: 0.2s 0.1s ease-in-out;
     box-sizing: border-box;
