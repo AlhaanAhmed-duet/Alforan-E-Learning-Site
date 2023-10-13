@@ -10,7 +10,11 @@
  }
 body {
     /* background-color: #263736; */
+<<<<<<< HEAD
     background-image: url('img/study-picture.jpg');
+=======
+    background-image: url('img/table.jpg');
+>>>>>>> 4d4d20eff3daaef57813186c584cc6d76a7a0c1d
     background-repeat: no-repeat;
     background-size: 100%;
     
@@ -55,9 +59,15 @@ body::before {
     box-shadow: none;
     transition: 0.5s;
  }
+<<<<<<< HEAD
  .navbar-toggler:focus {
     box-shadow: none;
  }
+=======
+.navbar-toggler:focus {
+ box-shadow: none;
+}
+>>>>>>> 4d4d20eff3daaef57813186c584cc6d76a7a0c1d
 .nav-item {
     transition: 0.2s 0.1s ease-in-out;
     box-sizing: border-box;
