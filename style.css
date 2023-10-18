@@ -77,7 +77,12 @@ body::before {
 
 
 /* We styled Navbar now its time for the rest of the body i.e Main element */
+.first-section {
+    justify-content: center;
 
+
+
+}
 .heading {
     font-size: 40px;
     font-weight: bolder;
@@ -101,7 +106,7 @@ body::before {
 }
 .first-section {
     padding: 5%;
-    margin-bottom: 10%;
+    
 
 
 }
@@ -111,12 +116,9 @@ body::before {
 
 .second-last-section {
     padding: 0;
-    /* background-color: black; */
-    background-image: url('img/math-background.jpg');
+    background-color: rgb(5, 5, 5);
     background-size: cover;
-    
     height: 400px;
-    
 }
 
 .second-last-section-heading {
@@ -154,6 +156,16 @@ body::before {
     background-color: white;
     color: #096c67;
 
+}
+
+.nav-link:active {
+    opacity: calc(0.5);
+
+}
+.chat-button:active {
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    color: #096c67;
 }
 /* Now footer starts here */
 #footer {
